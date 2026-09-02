@@ -1,0 +1,6 @@
+opencv-python>=4.8.0
+# Pinned: mediapipe 0.10.30+ (and the new 1.0.x releases) removed the legacy
+# `mediapipe.solutions` API this project uses (FaceMesh). 0.10.21 is the
+# newest release confirmed to still have it. If you later migrate to the
+# new Tasks API (FaceLandmarker), you can drop this pin.
+mediapipe==0.10.21
